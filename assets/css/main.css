@@ -1,0 +1,128 @@
+/* resets */
+* {
+  box-sizing: border-box;
+}
+
+.wrapper {
+  min-height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+}
+
+/* font family */
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Work+Sans:wght@100&display=swap');
+
+
+/* flex for nav on a container */
+nav {
+  display: flex;
+  
+  background-color: orange;
+}
+
+/* make nav menu aligned to the right side of the naivation bar */
+nav ul {
+  margin-left: auto;
+}
+
+/* reset */
+body {
+  margin: 0;
+  padding: 0;
+  
+  font-variant: small-caps;
+  letter-spacing: 0.2em;
+  text-align: center;
+}
+
+
+
+nav ul { 
+  display:flex;
+  list-style-type: none;
+
+  padding-left: 0;
+  padding-top: auto;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+nav ul li {
+  text-align: center;
+}
+
+nav ul a {
+  text-decoration: none;
+
+  color: rgb(0, 0, 0);
+  font-size: 1.5rem;
+  
+  display: block;
+  padding: 0.5em 1em;
+}
+
+nav {
+  margin-bottom: 2rem;
+}
+
+/* LOGO */
+nav .logo {
+  width: 50px;
+  max-height: 50px;
+}
+
+/* hover and active of the nav menu */
+nav ul a:hover {
+  color: grey;    
+}
+
+nav ul a:active {
+  color: rgb(0, 132, 255);
+}
+
+
+/* nav ul a:visited{
+  color: #6CBB3C;
+  }*/
+
+nav ul :current {
+    color: rgb(31, 51, 31);
+  }
+  
+
+header {
+  font-family: 'Oswald', sans-serif;
+}
+
+header p {
+  margin-top: 2rem;
+}
+
+.article {
+  text-align: center;
+
+  margin: 0 auto;
+  width: 50ch;
+  margin: 4rem auto;
+
+  font-family: 'Work Sans', sans-serif;
+}
+
+/* sticky footer */
+
+footer {
+  background: orange;
+  color: black;
+
+  text-align: center;
+
+  padding: 1rem;
+}
+
+/* Media Queries*/
+@media screen and (max-width: 600px){
+  main * {
+    width: 100%;
+  }
+}
