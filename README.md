@@ -20,5 +20,8 @@ https://github.com/sait-wbdv/php-in-class
 
 ## Webpage 
 
-https://yanlinchen1985.github.io/cpnt200-a1/
+GH Repo: https://yanlinchen1985.github.io/cpnt200-a1/
 
+
+
+Thank you for teaching!
